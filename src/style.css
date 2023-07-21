@@ -1,5 +1,6 @@
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: darkslategrey;
@@ -13,6 +14,7 @@
   background-color: white;
   align-self: center;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -22,4 +24,20 @@ button {
   border-radius: 5px;
   padding: 10px;
   margin-right: 10px;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid slategray;
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  width: 800px;
+  padding: 30px;
+  background-color: white;
+  align-self: center;
+  border-radius: 10px;
 }
